@@ -15,6 +15,7 @@ import json
 with open('config.json', 'r') as c:
     config = json.load(c)
 
+
 # Settings
 if config["Generate Images"].lower() == 'true': # Do you want to generate images?
     genImages = True
@@ -24,6 +25,13 @@ if config["Generate Videos"].lower() == 'true': # Do you want to generate videos
     genVideos = True 
 else:
     genVideos = False
+
+if config["resuming"].lower() == 'true': # Are you resuming
+    resuming = True
+else:
+    resuming = False
+
+
 amount = config["Amount"]
 
 # What is this
@@ -67,7 +75,8 @@ if genImages:
 
 # Generate videos
 if genVideos:
-    vm.makeVidsFI()
+    if not resuming:
+        vm.makeVidsFI()
 
     for file in os.listdir("src\\vidpart"):
 

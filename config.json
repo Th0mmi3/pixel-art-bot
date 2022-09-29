@@ -1,5 +1,6 @@
 {
-    "Amount": 10,
+    "Amount": 1,
     "Generate Images": "False",
-    "Generate Videos": "True"
+    "Generate Videos": "True",
+    "Resuming": "False"
 }
