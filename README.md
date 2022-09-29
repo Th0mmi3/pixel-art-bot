@@ -4,7 +4,7 @@ Bot that creates minecraft pixelart videos
 
 ### The settings are located in **`config.json`**
 
-	Amount: The amount of images you want to download for each prompt
+	Amount: The maximum amount of images you want to download for each prompt
 	Generate Videos: Do you want to generate videos?
 	Generate Images: Do you want to download images?
 
