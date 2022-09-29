@@ -26,7 +26,7 @@ if config["Generate Videos"].lower() == 'true': # Do you want to generate videos
 else:
     genVideos = False
 
-if config["resuming"].lower() == 'true': # Are you resuming
+if config["Resuming"].lower() == 'true': # Are you resuming
     resuming = True
 else:
     resuming = False
