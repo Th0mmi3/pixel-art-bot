@@ -7,6 +7,7 @@ Bot that creates minecraft pixelart videos
 	Amount: The maximum amount of images you want to download for each prompt
 	Generate Videos: Do you want to generate videos?
 	Generate Images: Do you want to download images?
+        Resume: Are you resuming video creation
 
 You can list all of the prompts you want videos to be made of in **`prompts.txt`**
  
