@@ -1,5 +1,6 @@
 # pixel-art-bot
 Bot that creates minecraft pixelart videos
+No, im not proud of this
 
 
 ### The settings are located in **`config.json`**
